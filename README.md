@@ -1,6 +1,6 @@
 # Flutter Project
 
-Welcome to the **Flutter Project** repository! This project is part of the **30 Days of Flutter** challenge, where daily tasks and code implementations are developed in Flutter.
+Welcome to the **item shop** repository! This project is the frontend of a catalouge app...
 
 ## Table of Contents
 
@@ -8,17 +8,14 @@ Welcome to the **Flutter Project** repository! This project is part of the **30 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
+
 
 ## Overview
-
-This repository contains various Flutter projects that demonstrate different functionalities in mobile app development. The projects are categorized by days, with each branch representing code related to a specific day of the challenge.
+This project overviews a item shop where one can opt to buy from. 
 
 ## Features
 
 - **Cross-Platform Development**: Supports both iOS and Android platforms.
-- **Day-wise Progress**: Each day focuses on a specific feature or concept in Flutter.
 - **UI/UX Design**: A responsive and clean user interface designed using Flutter widgets.
 - **Integration**: Uses various Flutter packages for improved functionality.
 
@@ -28,35 +25,20 @@ To get a local copy up and running, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/deepnp7/Flutter-Project.git
+   git clone https://github.com/karmicharsh/item-shop.git
+
+
    Navigate to the project directory:
    ```
+   ```bash
+    cd Flutter-Project
+  ```
+-Install dependencies:
 
-- cd Flutter-Project
-  #Install dependencies:
-- flutter pub get
+ flutter pub get
+  ```
   Run the project on a connected device or simulator:
-  flutter run
-  Usage
-  Once you have the project running, you can explore the different branches, each corresponding to a specific day of the 30 Days of Flutter challenge:
+  ```bash
+-flutter run
+  ```
 
-day1: Basic Flutter setup and project structure.
-day2: Introduction to widgets.
-.....
-day30: Final day with a complete project demonstrating advanced Flutter features.
-Feel free to switch between branches to explore the code for each day:
-
-git checkout <branch-name>
-
-
-## Contributing
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-- Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
-
-Thank You !
